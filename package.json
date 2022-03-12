@@ -1,0 +1,27 @@
+{
+  "name": "senior7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node build/index.js",
+    "start": "ts-node  src/index.ts",
+    "dev": "ts-node-dev src/index.ts",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "",
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.4.0",
+    "ts-node-dev": "^1.1.8"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "discord-pages": "^1.0.2",
+    "discord.js": "^13.5.0",
+    "discordjs-variables": "^1.1.6",
+    "mongoose": "^6.1.4",
+    "validate-color": "^2.2.1"
+  }
+}
