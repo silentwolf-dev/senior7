@@ -14,7 +14,7 @@ export const run: EventFunction = async (client, member: GuildMember) => {
         _id: member.id,
         serverid: member.guild.id,
     })
-    
+
 
     await saveduser.save().then((res) => {
 

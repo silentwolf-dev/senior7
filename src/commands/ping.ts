@@ -1,13 +1,17 @@
-import { Command } from '../utilities/command'
-import { Message } from 'discord.js'
-import { Args } from "../types/commands"
+import { SlashCommandBuilder } from "@discordjs/builders"
+import { Interaction,  } from "discord.js"
+import Discord from 'discord.js'
 
 
+export = {
+    data: new SlashCommandBuilder()
+    .setName('ping')
+    .setDescription('ping command'),
 
-export = new Command({
-    name: "ping",
-    aliases: ['p'],
-    execute: function (client, message, args) {
-        message.channel.send('hi')
-    }
-})
+  execute(inter: Interaction){
+   
+  }
+
+}
+
+
